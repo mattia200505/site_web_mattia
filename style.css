@@ -1,21 +1,18 @@
-*, *::before, *::after {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+*, *::before, *::after{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
 }
-
-body {
+body{
     font-family: serif;
     font-size: 14px;
 }
-
-.logo {
+.logo{
     text-decoration: none;
     margin-left: 130px;
     margin-top: -2px;
 }
-
-.overlay {
+.overlay{
     position: absolute;
     top: 0;
     left: 0;
@@ -24,24 +21,21 @@ body {
     height: 100vh;
     background: url(fond\ ecran.jpg) center center no-repeat;
     background-size: cover;
-    z-index: -100;
+    z-index: -100;   
 }
-
-header {
+header{
     max-width: 80%;
     margin-right: auto;
     margin-left: auto;
 }
-
-nav {
+nav{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     width: 100%;
     padding: 10px 0 10px;
 }
-
-header {
+header{
     color: #fff;
     position: fixed;
     right: 0;
@@ -52,17 +46,15 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 33px 9%;
-    background: transparent;
+    background: transparent; 
 }
-
-nav ul {
+nav ul{
     flex: 1;
     display: flex;
     justify-content: flex-end;
     padding-right: 40px;
 }
-
-nav ul li {
+nav ul li{
     font-family: 'Delius Unicase', cursive;
     font-family: 'DM Sans', sans-serif;
     font-family: 'Permanent Marker', cursive;
@@ -71,51 +63,45 @@ nav ul li {
     margin-left: 20px;
     margin-bottom: 130px;
 }
-
-nav ul li a {
+nav ul li a{
     color: #ff0000e3;
     font-family: 'Delius Unicase', cursive;
-    font-family: 'Permanent Marker', cursive;
+    font-family: 'Permanent Marker', cursive;   
     font-family: 'Tilt Neon', sans-serif;
     margin-left: 30px;
     font-size: 15px;
     font-weight: 600;
     border-bottom: 2px solid transparent;
-    transition: all .55s ease;
+    transition: all .55s  ease;
     cursor: pointer;
     text-decoration: none;
 }
-
 nav ul li a:hover {
     display: block;
     border-bottom: 2px solid #ff0000e3;
 }
-
-.text {
+.text{
     padding: 70px 0;
     color: #000000;
     max-width: 90%;
-    margin-left: auto;
+    margin-left: auto; 
     margin-right: auto;
 }
-
-.text h1 {
+.text h1{
     font-size: 75px;
     line-height: 2;
     margin-bottom: 1rem;
     margin-top: -2rem;
 }
-
-.text p {
+.text p{
     font-size: 1.2rem;
     line-height: 1.5;
     letter-spacing: 1px;
     margin-bottom: 2rem;
 }
-
-.text a {
+.text a{
     display: inline-block;
-    color: #ffffff;
+    color: #ffffff;        
     background: transparent;
     border: 1px solid #4aabe8;
     padding: 12px 30px;
@@ -127,20 +113,17 @@ nav ul li a:hover {
     transition: all .55s ease;
     text-decoration: none;
 }
-
-.text a:hover {
+.text a:hover{
     background: transparent;
     border: 1px solid #fff;
     transform: translateX(5px);
 }
-
-.icone {
+.icone{
     position: absolute;
     bottom: 6%;
-    right: 6%;
+    right: 6%;;
 }
-
-.icone i {
+.icone i{
     display: block;
     padding: 12px;
     font-size: 25px;
@@ -152,8 +135,7 @@ nav ul li a:hover {
     transition: all .50s ease;
     cursor: pointer;
 }
-
-.icone i:hover {
+.icone i:hover{
     color: #4aabe8;
     transform: translateY(-5px);
 }
